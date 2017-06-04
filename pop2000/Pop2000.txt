@@ -1,0 +1,403 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: RIDOA - Statewide Planning Program
+      Publication_Date: 20020115
+      Title: US 2000 Census Population & Housing; pop2000
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Providence Rhode Island
+        Publisher: Statewide Planning Program
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 2002. US 2000 Census Population & Housing; pop2000. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 9 October 2014).
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: RIGIS
+          Publication_Date: 20020115
+          Title: Rhode Island Geographic Information System Database
+          Publication_Information:
+            Publication_Place: Kingston/Providence RI
+            Publisher: RI Board of Governors for Higher Education
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: Redistricting Census 2000 TIGER/Line was used to divide Rhode Island into Tract, Block Group and Block levels. The TIGER/Line data set was joined with Census 2000 Redistricting Data to calculate the population density per square mile.
+    Purpose: Tabular and Geographic US Census 2000 information for general GIS use.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2000
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.911779
+      East_Bounding_Coordinate: -71.084807
+      North_Bounding_Coordinate: 42.018859
+      South_Bounding_Coordinate: 41.095145
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: society
+      Theme_Keyword: 016
+      Theme_Keyword: Census 2000
+      Theme_Keyword: Population
+      Theme_Keyword: Tract
+      Theme_Keyword: Block Group
+      Theme_Keyword: Block
+      Theme_Keyword: Population over 18
+      Theme_Keyword: Voting population
+    Place:
+      Place_Keyword: New England
+      Place_Keyword: Northeast
+      Place_Keyword: Rhode Island
+      Place_Keyword: USA
+  Access_Constraints: None.
+  Use_Constraints:
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+    Due to the scale and accuracy of the TIGER Geography. US Census TIGER Geography is best useable with other census data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Rhode Island Division of Planning
+        Contact_Person: Christina Delage Baza
+      Contact_Position: GIS Specialist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: One Capitol Hill
+        City: Providence
+        State_or_Province: RI
+        Postal_Code: 02908-5872
+      Contact_Voice_Telephone: 401-222-6481
+      Contact_Electronic_Mail_Address: christina.delagebaza@doa.ri.gov
+  Browse_Graphic:
+    Browse_Graphic_File_Name: http://www.rigis.org/images/metadata/society/pop2000.gif
+    Browse_Graphic_File_Type: GIF
+  Security_Information:
+    Security_Classification_System: None
+    Security_Classification: Unclassified
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Ridistricting 2000 TIGER/LINE Files Technical Documentation
+  Logical_Consistency_Report: Topologically complete ESRI Polygon Coverage
+  Completeness_Report: Considered complete within RI borders for Census 2000 Tract, Block Group and Block levels..
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Estimated accuracy plus or minus 167 feet
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Explanation: Tiger Line Source - National map accuracy for 1:100,000
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: NA
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Redistricting Census 2000 TIGER/Line
+          Originator: Census 2000 Redistricting P.L. 94-171 Summary File
+          Originator: Department of Environmental Management
+          Originator: RIDOA Statewide Planning Program
+          Originator: Census 2000 Summary File 1
+          Publication_Date: 20020115
+          Title: Pop2000 - US Census 2000 Population
+          Geospatial_Data_Presentation_Form: vector digital data
+          Publication_Information:
+            Publication_Place: Providence RI
+            Publisher: Statewide Planning Program
+          Online_Linkage: http://www.planning.state.ri.us
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: RIGIS
+              Publication_Date: 20020115
+              Geospatial_Data_Presentation_Form: vector digital data
+              Publication_Information:
+                Publication_Place: Kingston/Providence RI
+                Publisher: RI Board of Governors for Higher Education
+              Online_Linkage: http://www.edc.uri.edu
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Digital Data on CD-ROM from US Census 2000 Tiger/Line
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20000101
+        Source_Currentness_Reference: publication date for Census 2000 TIGER/Line
+    Source_Information:
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20010201
+        Source_Currentness_Reference: publication date for Census 2000 Redistricting Data P.L. 94-171
+    Process_Step:
+      Process_Description:
+        Fields within the joined data set include state/county code [Fipsstco], Tract, Block Group, Block, unique state to block level Id [stfid], RI Tract to Block level Id [Ricens2000], Acres, Square Miles, Population Density, Population, Water and Town Name.  Census 2000 Summary File 1 was used to obtain the total population over 18 [Pop18over] at the block level.    Tract-Block field [TR_BLK] was created  to join the [pop18over] to the previously  joined TIGER/Line data and Census 2000 Redistricting Data.
+        Note:  [   ] represents a field name within the polygon attribute table.  RIDEM joined the tabular data from the Census 2000 Redistricting Data P.L. 94-171 Summary File with the Redistricting Census 2000 TIGER/LINE geographic data set.  [Acres] and square miles [Mi_2]  were converted from the ESRI calculated [AREA] in square feet.  Population density [Pop_Dens]  was then calculated  per square mile and [STFID] was computed as a concatenation of State, County, Tract, Block Group and Block ID's.
+        RIGIS recalculated the Census Tract ID to represent the tract name.  The tract name [Ctract2000] excludes preceding zeros and has an optional two digit suffix.  Block Group [Bgroup2000] was computed as a unique Block Group # within each Census Tract using a concatenation of the [Ctract2000] and the first digit of [Block2000].   RI Census [RIcens2000] was computed as a concatenation of Tract, Block Group and Block ID's.   [Water] was identified and computed by viewing the last three digits of [Block2000].  All [Block2000] id's ending in 987-999 were considered water blocks and computed as [Water] = 'Y'.  All other [Block2000] id's were computed as [Water] = 'N'.  Town names [Town] were selected & defined using RIGIS town boundaries.   [TR_BLK] was computed as a concatenation of Tract and Block numbers.  TR_BLK was used as the common field to join the census 2000 Summary File 1 population over 18 [Pop18over] field to the previously joined TIGER/Line data set and Census 2000 Redistricting data.
+      Process_Date: 20010801 and 20020115
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: RI Dept of Administration-Statewide Planning
+            Contact_Person: Christina Delage
+          Contact_Position: GIS Analyst
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: One Capitol Hill - Planning
+            City: Providence
+            State_or_Province: Rhode Island
+            Postal_Code: 02908-5872
+            Country: USA
+          Contact_Voice_Telephone: (401) 222-6481
+          Contact_Facsimile_Telephone: (401) 222-6482
+          Contact_Electronic_Mail_Address: chrisd@mail.state.ri.us
+          Hours_of_Service: 8-4 EST M-F
+    Process_Step:
+      Process_Description: Updated Point of Contact information for this dataset for Christina Delage Baza, including updated name and email.
+      Process_Date: 20150528
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+    Process_Step:
+      Process_Description: Converted E00 to coverage using "Import from E00" tool. Converted coverage to shapefile using the "Feature Class to Shapefile" tool.
+      Process_Date: 20150701
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Position: Research Associate
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: Coastal Institute
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 21040
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 21040
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 21040
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 4
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3800
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999994
+            Longitude_of_Central_Meridian: -71.500000
+            Latitude_of_Projection_Origin: 41.083333
+            False_Easting: 328083.333333
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000512
+          Ordinate_Resolution: 0.000512
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+      Altitude_Resolution: 0.000010
+      Altitude_Encoding_Method: Explicit elevation coordinate included with horizontal coordinates
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Census_2000_pop2000
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: POP18OVER
+      Attribute_Definition: Total Population over 18
+      Attribute_Definition_Source: Census 2000 Summary File 1
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: FIPSSTCO
+      Attribute_Definition: RI County Identification #
+      Attribute_Definition_Source: Concatenation of State(S) and County(C) id.  (Displayed in numeric form in the order of SSCCC)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 44001
+          Enumerated_Domain_Value_Definition: RI Bristol County
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 44003
+          Enumerated_Domain_Value_Definition: RI Kent County
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 44005
+          Enumerated_Domain_Value_Definition: RI Newport County
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 44007
+          Enumerated_Domain_Value_Definition: RI Providence County
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 44009
+          Enumerated_Domain_Value_Definition: RI Washington County
+    Attribute:
+      Attribute_Label: CTRACT2000
+      Attribute_Definition: RI Census 2000 Tract Name (displayed as ###.##)
+      Attribute_Definition_Source: US Census 2000 Tract [As Number]/100
+    Attribute:
+      Attribute_Label: BGROUP2000
+      Attribute_Definition: Concatenation of Tract # and Block #. (Displayed as ###.###)
+      Attribute_Definition_Source: Block Group # (G) is equal to the first digit of the Block # [Block2000].  [BGROUP2000] is set up with the first 5 digits = Tract (T) and the last digit = Block Group(G).  (Displayed in numeric form in the order of TTT.TTG)
+    Attribute:
+      Attribute_Label: BLOCK2000
+      Attribute_Definition: Census 2000 Block # with 1st Digit = Block Group (G) and last 3 digits = Block (B)
+      Attribute_Definition_Source: US Census 2000 (Displayed in numeric form in the order of  GBBB)
+    Attribute:
+      Attribute_Label: STFID
+      Attribute_Definition: Unique State to Block Level ID
+      Attribute_Definition_Source: Concatenation of State(S), County(C), Tract(T), Block Group(G) and Block(B) ID's.  (Displayed in numeric form in the order of SSCCCTTTTTTGBBB)
+    Attribute:
+      Attribute_Label: RICENS2000
+      Attribute_Definition: Unique Rhode Island Tract to Block Level ID
+      Attribute_Definition_Source: Concatenation of RI Census Tract(T), Block Group(G) and Block (B) ID's.  (Displayed in numeric form in the order of  TTT.TTGBBB)
+      Attribute_Domain_Values:
+    Attribute:
+      Attribute_Label: ACRES
+      Attribute_Definition: Acres
+      Attribute_Definition_Source: Area * .00002295684 = Acres
+    Attribute:
+      Attribute_Label: MI__2
+      Attribute_Definition: Square Miles
+      Attribute_Definition_Source: Area * 0.00000003587006 = MI_2
+    Attribute:
+      Attribute_Label: POP_DENS
+      Attribute_Definition: Population Density
+      Attribute_Definition_Source: Population / MI_2 = POP_DENS
+    Attribute:
+      Attribute_Label: WATER
+      Attribute_Definition: Water value of 'Y' = Water and a value of 'N' = Land
+      Attribute_Definition_Source: Obtained from Census [Block2000] values.  If the last 3 digits of [Block2000] are within the range of  900-999 then [WATER] = 'Y'.  All other values for the last 3 digits of [Block2000] would result in [WATER] = 'N'.
+    Attribute:
+      Attribute_Label: TOWN
+      Attribute_Definition: Town Names
+      Attribute_Definition_Source: Defined using RIGIS Town Boundaries
+      Attribute_Domain_Values:
+    Attribute:
+      Attribute_Label: TR_BLK
+      Attribute_Definition: Concatenation of Tract & Block numbers with a space between the two.
+    Attribute:
+      Attribute_Label: POP2000
+      Attribute_Definition: Total Population on the block level
+      Attribute_Definition_Source: Census 2000 Redistricting P.L. 94-171 Summary File
+      Attribute_Domain_Values:
+    Attribute:
+      Attribute_Label: POP2000_
+    Attribute:
+      Attribute_Label: POP2000_ID
+    Attribute:
+      Attribute_Label: Shape_Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Overview_Description:
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20060620
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: RI Department of Administration; Division of Information Technology
+        Contact_Person: REQUIRED: The person responsible for the metadata information.
+      Contact_Position: RIGIS Coordinator
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1 Capitol Hill
+        City: Providence
+        State_or_Province: Rhode Island
+        Postal_Code: 02908
+        Country: USA
+      Contact_Voice_Telephone: 401-222-6483
+      Contact_Facsimile_Telephone: 401-222-6482
+      Contact_Electronic_Mail_Address: rigis@admin.ri.gov
+      Hours_of_Service: 8:00 - 3:30
+      Contact_Instructions: E-mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
